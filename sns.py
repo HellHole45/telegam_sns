@@ -20,9 +20,9 @@ keyboard2 = InlineKeyboardMarkup()
 menu_1 = InlineKeyboardButton(text='FAFF (R and M)', callback_data="menu_1")
 menu_2 = InlineKeyboardButton(text='AQRA', callback_data="menu_2")
 menu_3 = InlineKeyboardButton(text='KASTA', callback_data="menu_3")
-menu_1 = InlineKeyboardButton(text='AK247', callback_data="menu_4")
-menu_2 = InlineKeyboardButton(text='CHN', callback_data="menu_5")
-menu_3 = InlineKeyboardButton(text='RED', callback_data="menu_6")
+menu_4 = InlineKeyboardButton(text='AK247', callback_data="menu_4")
+menu_5 = InlineKeyboardButton(text='CHN', callback_data="menu_5")
+menu_6 = InlineKeyboardButton(text='RED', callback_data="menu_6")
 
 keyboard2.add(menu_1, menu_2, menu_3, menu_4, menu_5, menu_6)
 
